@@ -1,6 +1,6 @@
 {
   "name": "slap",
-  "version": "0.1.61",
+  "version": "0.1.62",
   "description": "Sublime-like terminal-based text editor",
   "preferGlobal": true,
   "main": "lib/cli.js",
@@ -15,23 +15,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/slap-editor/slap.git"
+    "url": "https://github.com/ajstrand/slap.git"
   },
-  "bugs": "https://github.com/slap-editor/slap/issues",
+  "bugs": "https://github.com/ajstrand/slap/issues",
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "base-widget": "git+https://github.com/cancerberoSgx/base-widget.git",
-    "blessed": "0.1.81",
+    "base-widget": "git+https://github.com/ajstrand/base-widget.git",
+    "neo-blessed": "0.2.0",
     "bluebird": "3.5.4",
-    "editor-widget": "git+https://github.com/cancerberoSgx/editor-widget.git",
-    "lodash": "4.17.11",
-    "mkdirp": "0.5.1",
+    "editor-widget": "git+https://github.com/ajstrand/editor-widget.git",
+    "lodash": "4.17.21",
+    "mkdirp": "1.0.4",
     "node-clap": "0.0.5",
     "rc": "1.2.8",
-    "slap-util": "git+https://github.com/cancerberoSgx/slap-util.git",
+    "slap-util": "git+https://github.com/ajstrand/slap-util.git",
     "ttys": "0.0.3",
-    "update-notifier": "2.5.0"
+    "update-notifier": "5.1.0"
   },
   "devDependencies": {
     "get-random-port": "0.0.1",
