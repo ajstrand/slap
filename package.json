@@ -21,10 +21,10 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "base-widget": "git+https://github.com/ajstrand/base-widget.git",
+    "base-widget": "git+https://github.com/ajstrand/base-widget.git#main",
     "neo-blessed": "0.2.0",
     "bluebird": "3.7.2",
-    "editor-widget": "git+https://github.com/ajstrand/editor-widget.git",
+    "editor-widget": "git+https://github.com/ajstrand/editor-widget.git#main",
     "lodash": "4.17.21",
     "mkdirp": "0.5.1",
     "node-clap": "0.0.5",
