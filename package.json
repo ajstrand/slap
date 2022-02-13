@@ -21,15 +21,15 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "base-widget": "git+https://github.com/ajstrand/base-widget.git",
+    "base-widget": "git+https://github.com/ajstrand/base-widget.git#main",
     "neo-blessed": "0.2.0",
     "bluebird": "3.7.2",
-    "editor-widget": "git+https://github.com/ajstrand/editor-widget.git",
+    "editor-widget": "git+https://github.com/ajstrand/editor-widget.git#main",
     "lodash": "4.17.21",
     "mkdirp": "0.5.1",
     "node-clap": "0.0.5",
     "rc": "1.2.8",
-    "slap-util": "git+https://github.com/ajstrand/slap-util.git",
+    "slap-util": "git+https://github.com/ajstrand/slap-util.git#main",
     "ttys": "0.0.3",
     "update-notifier": "5.1.0"
   },
