@@ -1,6 +1,6 @@
 {
   "name": "slap",
-  "version": "0.1.62",
+  "version": "0.1.63",
   "description": "Sublime-like terminal-based text editor",
   "preferGlobal": true,
   "main": "lib/cli.js",
@@ -23,10 +23,10 @@
   "dependencies": {
     "base-widget": "git+https://github.com/ajstrand/base-widget.git",
     "neo-blessed": "0.2.0",
-    "bluebird": "3.5.4",
+    "bluebird": "3.7.2",
     "editor-widget": "git+https://github.com/ajstrand/editor-widget.git",
     "lodash": "4.17.21",
-    "mkdirp": "1.0.4",
+    "mkdirp": "0.5.1",
     "node-clap": "0.0.5",
     "rc": "1.2.8",
     "slap-util": "git+https://github.com/ajstrand/slap-util.git",
@@ -36,6 +36,6 @@
   "devDependencies": {
     "get-random-port": "0.0.1",
     "istanbul": "0.4.5",
-    "tape": "4.10.1"
+    "tape": "5.5.2"
   }
 }
