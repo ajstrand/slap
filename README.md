@@ -1,7 +1,12 @@
-![Screenshot](https://raw.githubusercontent.com/slap-editor/slap/master/screenshot.png)
+## This is a slightly updated fork that currently runs under Node v16.
+### The original author passed away in 2018, so various folks have forked the project. 
+#### AFAIK this is the only fork that works under Node v16. 
 
-slap :wave: [![Build Status](https://img.shields.io/travis/slap-editor/slap.svg)](https://travis-ci.org/slap-editor/slap) [![Donate](https://img.shields.io/gratipay/slap.svg)](https://gratipay.com/slap/)
-====
+#### Syntax highlighting currently isnt working at all and is something I'm working to fix. 
+
+## The version I have running works on a recent linux distro, Pop OS, so it should run on Macs. 
+### I plan to fully support Windows as well. 
+![Screenshot](https://raw.githubusercontent.com/slap-editor/slap/master/screenshot.png)
 
 slap is a Sublime-like terminal-based text editor that strives to make editing
 from the terminal easier. It has:
@@ -21,11 +26,7 @@ from the terminal easier. It has:
 Installation
 ------------
 
-    $ curl -sL https://raw.githubusercontent.com/slap-editor/slap/master/install.sh | sh
-
-If you already have [NodeJS](http://nodejs.org/download/) installed:
-
-    $ sudo npm install -g slap@latest
+//TODO: create new install info
 
 Usage
 -----
@@ -91,10 +92,6 @@ notable exception. In Cygwin, slap crashes on startup due to
 
 [Issues](../../issues/new)
 --------
-
-Join us in [#slap on Freenode](http://webchat.freenode.net/?channels=slap) for
-troubleshooting, theme/plugin/core development, or palm strike discussion of any
-nature.
 
 ### Some keys don't work!
 
