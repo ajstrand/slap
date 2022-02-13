@@ -29,7 +29,7 @@
     "mkdirp": "0.5.1",
     "node-clap": "0.0.5",
     "rc": "1.2.8",
-    "slap-util": "git+https://github.com/ajstrand/slap-util.git",
+    "slap-util": "git+https://github.com/ajstrand/slap-util.git#main",
     "ttys": "0.0.3",
     "update-notifier": "5.1.0"
   },
