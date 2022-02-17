@@ -2,8 +2,6 @@
 ### The original author passed away in 2018, so various folks have forked the project. 
 #### AFAIK this is the only fork that works under Node v16. 
 
-#### Syntax highlighting currently isnt working at all and is something I'm working to fix. 
-
 ## The version I have running works on a recent linux distro, Pop OS, so it should run on Macs. 
 ### I plan to fully support Windows as well. 
 ![Screenshot](https://raw.githubusercontent.com/slap-editor/slap/master/screenshot.png)
