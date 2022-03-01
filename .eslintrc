@@ -1,0 +1,14 @@
+{
+    "extends":["prettier"],
+  "plugins": ["import", "jest"],
+  "rules": {
+    "import/no-unresolved": 2,
+    "import/no-commonjs": 2,
+    "import/extensions": [2, "ignorePackages"],
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error"
+  }
+}

@@ -3,6 +3,7 @@
   "version": "0.1.63",
   "description": "Sublime-like terminal-based text editor",
   "preferGlobal": true,
+  "type": "module",
   "main": "lib/cli.js",
   "bin": {
     "slap": "./slap.js"
@@ -11,7 +12,13 @@
     "start": "./slap.js",
     "debug": "node --inspect-brk ./slap.js",
     "test": "spec/index.js",
-    "cover": "istanbul cover spec/index.js"
+    "cover": "jest --coverage spec/index.js",
+    "trash": "trash build",
+    "gulp": "trash dist && gulp",
+    "clean-run": "npm run gulp && node dist/example.js",
+    "example": "node dist/example.js",
+    "internal": "node example.js",
+    "dashboard":"npx eslint-interactive"
   },
   "repository": {
     "type": "git",
@@ -22,20 +29,39 @@
   "license": "MIT",
   "dependencies": {
     "base-widget": "git+https://github.com/ajstrand/base-widget.git#main",
-    "neo-blessed": "0.2.0",
     "bluebird": "3.7.2",
     "editor-widget": "git+https://github.com/ajstrand/editor-widget.git#main",
+    "fs-extra": "^10.0.1",
     "lodash": "4.17.21",
     "mkdirp": "0.5.1",
-    "node-clap": "0.0.5",
+    "neo-blessed": "0.2.0",
     "rc": "1.2.8",
+    "rollup-plugin-strip-shebang": "^1.2.10",
     "slap-util": "git+https://github.com/ajstrand/slap-util.git#main",
     "ttys": "0.0.3",
     "update-notifier": "5.1.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/register": "7.17.0",
+    "@mizdra/eslint-interactive": "^8.1.0",
+    "eslint": "^8.10.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^26.1.1",
+    "eslint-plugin-prettier": "^4.0.0",
     "get-random-port": "0.0.1",
-    "istanbul": "0.4.5",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify-es": "^3.0.0",
+    "jest": "^27.5.1",
+    "jest-cli": "^27.5.1",
+    "prettier": "^2.5.1",
     "tape": "5.5.2"
   }
 }
