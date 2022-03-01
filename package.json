@@ -18,7 +18,7 @@
     "clean-run": "npm run gulp && node dist/example.js",
     "example": "node dist/example.js",
     "internal": "node example.js",
-    "dashboard":"npx eslint-interactive"
+    "dashboard": "npx eslint-interactive"
   },
   "repository": {
     "type": "git",
@@ -33,6 +33,7 @@
     "editor-widget": "git+https://github.com/ajstrand/editor-widget.git#main",
     "fs-extra": "^10.0.1",
     "lodash": "4.17.21",
+    "make-dir": "^3.1.0",
     "mkdirp": "0.5.1",
     "neo-blessed": "0.2.0",
     "rc": "1.2.8",
@@ -48,6 +49,7 @@
     "@babel/preset-react": "^7.16.7",
     "@babel/register": "7.17.0",
     "@mizdra/eslint-interactive": "^8.1.0",
+    "debug": "^4.3.3",
     "eslint": "^8.10.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jest": "^26.1.1",
