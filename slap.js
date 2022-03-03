@@ -1,3 +1,4 @@
 #!/usr/bin/env node
+import cli  from "./lib/cli.js"
 
-module.exports = require("./lib/cli")().done();
+export default cli().done();
