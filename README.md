@@ -1,4 +1,8 @@
-## This is a slightly updated fork that currently runs under Node v16.
+# The branch *safe update es6 path* is currently the *stable* branch. 
+## Main had accumulated too many changes and wasnt working right. 
+### Path forward should probably be moving to mono-repo, so changes are easier
+
+
 ### The original author passed away in 2018, so various folks have forked the project. 
 #### AFAIK this is the only fork that works under Node v16. 
 
