@@ -4,12 +4,13 @@
   "description": "Sublime-like terminal-based text editor",
   "preferGlobal": true,
   "main": "lib/cli.js",
+  "type": "commonjs",
   "bin": {
     "slap": "./slap.js"
   },
   "scripts": {
     "start": "./slap.js",
-    "debug": "node --inspect-brk ./slap.js",
+    "debug": "node --inspect ./slap.js",
     "test": "spec/index.js",
     "cover": "istanbul cover spec/index.js"
   },
@@ -21,10 +22,10 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "base-widget": "git+https://github.com/ajstrand/base-widget.git#main",
+    "base-widget": "git+https://github.com/ajstrand/base-widget.git#safe-update-es6-path",
     "neo-blessed": "0.2.0",
     "bluebird": "3.7.2",
-    "editor-widget": "git+https://github.com/ajstrand/editor-widget.git#main",
+    "editor-widget":  "git+https://github.com/ajstrand/editor-widget.git#safe-update-es6-path",
     "lodash": "4.17.21",
     "mkdirp": "0.5.1",
     "node-clap": "0.0.5",
@@ -35,7 +36,8 @@
   },
   "devDependencies": {
     "get-random-port": "0.0.1",
-    "istanbul": "0.4.5",
+    "jest":"^28.0.0-alpha.7",
+    "jest-cli":"^28.0.0-alpha.7",
     "tape": "5.5.2"
   }
 }
