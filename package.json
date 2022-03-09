@@ -9,6 +9,8 @@
     "slap": "./slap.js"
   },
   "scripts": {
+    "updateDeps": "npm uninstall ajstrand/base-widget && npm install ajstrand/base-widget#possible-update",
+    "updateDeps2": "npm uninstall ajstrand/editor-widget && npm install ajstrand/editor-widget#test-idea",
     "start": "./slap.js",
     "debug": "node --inspect ./slap.js",
     "test": "spec/index.js",
@@ -28,9 +30,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "base-widget": "git+https://github.com/ajstrand/base-widget.git#main",
+    "base-widget": "github:ajstrand/base-widget#possible-update",
     "bluebird": "3.7.2",
-    "editor-widget": "git+https://github.com/ajstrand/editor-widget.git#main",
+    "editor-widget": "github:ajstrand/editor-widget#test-idea",
     "fs-extra": "^10.0.1",
     "lodash": "4.17.21",
     "make-dir": "^3.1.0",
