@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "./slap.js",
-    "debug": "node --inspect-brk ./slap.js",
+    "debug": "node --inspect ./slap.js",
     "test": "spec/index.js",
     "cover": "jest --coverage spec/index.js",
     "trash": "trash build",
